@@ -95,7 +95,7 @@ case $choice in
 				# Elevated severe
 					echo "You chose:"
 					echo " Elevated and would like to speak with someone." >> mood.txt
-					curl http://textbelt.com/text -d number=3523969626 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
+					curl http://textbelt.com/text -d number=1234567890 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
 					echo
 					;;
 				3)
@@ -108,7 +108,7 @@ case $choice in
                                 # Normal+
 					echo "You chose:"
                                         echo " Normal, but would like to speak with someone." >> mood.txt
-					curl http://textbelt.com/text -d number=3523969626 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
+					curl http://textbelt.com/text -d number=1234567890 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
                                         echo
                                         ;;
                                 5)
@@ -121,14 +121,14 @@ case $choice in
                                 # Depressed+
                                         echo "You chose:"
                                         echo " Depressed and would to speak to someone." >> mood.txt
-					curl http://textbelt.com/text -d number=3523969626 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
+					curl http://textbelt.com/text -d number=1234567890 -d "message=Dr. Patient Jones, would like some time on the couch." |$tee $LOG
                                         echo
                                         ;;
                                 7)
                                 # Depressed++
                                         echo "You chose:"
                                         echo " Depressed and may hurt myself or others." >> mood.txt
-					curl http://textbelt.com/text -d number=3523969626 -d "message=Dr. Patient Jones needs some help, urgently." |$tee $LOG
+					curl http://textbelt.com/text -d number=1234567890 -d "message=Dr. Patient Jones needs some help, urgently." |$tee $LOG
                                         echo
                                         ;;
 
