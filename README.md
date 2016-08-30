@@ -4,4 +4,6 @@ The last option is to exit the program.
 
 It creates a file called mood.txt, this will hold the information you inputed as well as a time and date stamp. 
 
-# It can be run crontjob, hourly, daily, monthly
+
+
+It can be run as a cronjob, hourly, daily, or monthly.
